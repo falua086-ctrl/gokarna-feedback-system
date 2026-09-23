@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gokarna Feedback System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Gokarna Feedback & Help Desk</h2>
+
+<form id="feedbackForm">
+    <input type="text" id="name" placeholder="Your Name" required><br><br>
+
+    <select id="type">
+        <option>Bug</option>
+        <option>Suggestion</option>
+        <option>Help Request</option>
+    </select><br><br>
+
+    <textarea id="description" placeholder="Describe the issue..." required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3>Submitted Issues</h3>
+<ul id="issuesList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
